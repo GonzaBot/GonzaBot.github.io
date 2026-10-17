@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src https://script.google.com https://script.googleusercontent.com; manifest-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Rodríguez de Mello Sistemas</title>
+<meta name="description" content="Gonzalo Rodríguez de Mello: servidores, desarrollo web, de escritorio y mobile, automatización y ciberseguridad para empresas de Rivera, Livramento y todo el país.">
+<meta name="author" content="Gonzalo Daniel Rodríguez de Mello">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#0E1726">
+<link rel="canonical" href="https://gonzabot.github.io/">
+<link rel="alternate" hreflang="es" href="https://gonzabot.github.io/?lang=es">
+<link rel="alternate" hreflang="pt" href="https://gonzabot.github.io/?lang=pt">
+<link rel="alternate" hreflang="en" href="https://gonzabot.github.io/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://gonzabot.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rodríguez de Mello Sistemas">
+<meta property="og:description" content="Servidores, software y seguridad para que tu negocio no se detenga.">
+<meta property="og:url" content="https://gonzabot.github.io/">
+<meta property="og:image" content="https://gonzabot.github.io/assets/img/og.png">
+<meta property="og:locale" content="es_UY">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/theme-init.js"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "Rodríguez de Mello Sistemas", "url": "https://gonzabot.github.io/", "image": "https://gonzabot.github.io/assets/img/og.png", "description": "Servidores, desarrollo web, de escritorio y mobile, automatización y ciberseguridad.", "areaServed": ["Rivera", "Santana do Livramento", "Uruguay", "Brasil"], "availableLanguage": ["es", "pt", "en"], "address": {"@type": "PostalAddress", "addressLocality": "Rivera", "addressCountry": "UY"}, "founder": {"@type": "Person", "name": "Gonzalo Daniel Rodríguez de Mello", "jobTitle": "Analista y desarrollador de sistemas, especialista en ciberseguridad", "sameAs": ["https://github.com/GonzaBot", "https://www.linkedin.com/in/gonzardem"]}}</script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0 5 5l-8.4 8.4a2.1 2.1 0 0 1-3-3l8.4-8.4a4 4 0 0 0-2-2z"/><path d="M14.7 6.3 17.5 3.5"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5 13.5h6L10 21l8-10.5h-6z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.2 7.5 9.5 4.4-1.3 7.5-4.9 7.5-9.5V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-teach" viewBox="0 0 24 24"><path d="M3 8.5 12 4l9 4.5-9 4.5z"/><path d="M7 10.5v4.5c1.5 1.3 3 2 5 2s3.5-.7 5-2v-4.5M21 8.5v6"/></symbol>
+  <symbol id="i-browser" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
+  <symbol id="i-desktop" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M9 20h6M12 16v4"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6 6 6M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="1.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H7a1.5 1.5 0 0 0-1.5 1.5v15A1.5 1.5 0 0 0 7 21h10a1.5 1.5 0 0 0 1.5-1.5V7.5z"/><path d="M14 3v4.5h4.5M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 6.1A9.5 9.5 0 0 1 12 6c5 0 8.5 4.5 9.5 6a17 17 0 0 1-3 3.6M6.4 7.6A17 17 0 0 0 2.5 12c1 1.5 4.5 6 9.5 6a9 9 0 0 0 4-1M9.9 10a3 3 0 0 0 4.1 4.1"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.5 5.2 3.5 8.5s-1.2 6.1-3.5 8.5c-2.3-2.4-3.5-5.2-3.5-8.5s1.2-6.1 3.5-8.5z"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4.5 17a8.5 8.5 0 1 1 15 0"/><path d="m12 13 3.5-4"/><circle cx="12" cy="13" r="1"/></symbol>
+</svg>
+
+<a class="skip" href="#main" data-i18n="skip">Ir al contenido</a>
+
+<header class="top" id="top">
+  <div class="top__in">
+    <a class="brand" href="#inicio" aria-label="Rodríguez de Mello Sistemas">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="26" height="6" rx="1.5"/><rect x="3" y="13" width="26" height="6" rx="1.5"/><rect x="3" y="21" width="26" height="6" rx="1.5"/><circle class="brand__led" cx="24" cy="8" r="1.6"/></svg>
+      <span class="brand__name">Rodríguez de Mello <span class="brand__sub" data-i18n="brand.sub">Sistemas</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios" data-i18n="nav.services">Servicios</a>
+      <a href="#servidores" data-i18n="nav.servers">Servidores</a>
+      <a href="#desarrollo" data-i18n="nav.dev">Desarrollo</a>
+      <a href="#proyectos" data-i18n="nav.work">Proyectos</a>
+      <a href="#perfil" data-i18n="nav.profile">Perfil</a>
+    </nav>
+    <div class="top__tools">
+      <div class="lang" role="group" aria-label="Idioma" data-i18n-aria="nav.lang">
+        <button type="button" class="lang__b" data-lang="es" lang="es" aria-pressed="true">ES</button>
+        <button type="button" class="lang__b" data-lang="pt" lang="pt" aria-pressed="false">PT</button>
+        <button type="button" class="lang__b" data-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="icon-btn" id="themeBtn" aria-label="Cambiar tema claro u oscuro" data-i18n-aria="nav.theme">
+        <svg class="ic ic--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="ic ic--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <a class="btn btn--cta btn--sm top__cta" href="#contacto" data-origin="header" data-i18n="nav.cta">Pedir presupuesto</a>
+      <button type="button" class="icon-btn menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Menú" data-i18n-aria="nav.menu">
+        <svg class="ic ic--menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ic ic--x" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="avail" id="avail"><span class="avail__dot" aria-hidden="true"></span><span id="availText" data-i18n="hero.avail.on">Disponible para proyectos nuevos</span></span><span class="eyebrow__sep" aria-hidden="true">·</span><span data-i18n="hero.eyebrow">Rivera · Livramento · remoto</span></p>
+        <h1 id="hero-title" data-i18n="hero.title">Servidores, software y seguridad para que tu negocio no se detenga.</h1>
+        <p class="lead" data-i18n="hero.lead">Soy Gonzalo Rodríguez de Mello, analista y desarrollador de sistemas especializado en ciberseguridad. Monto y cuido la infraestructura de tu empresa, desarrollo el software que te falta y automatizo el trabajo repetitivo.</p>
+        <div class="hero__cta">
+          <a class="btn btn--cta" href="#contacto" data-origin="hero"><span data-i18n="hero.cta1">Pedir presupuesto</span></a>
+          <a class="btn btn--ghost" href="#proyectos" data-i18n="hero.cta2">Ver proyectos</a>
+        </div>
+      </div>
+
+      <figure class="console" aria-labelledby="console-cap">
+        <figcaption class="console__bar" id="console-cap"><span class="console__dots" aria-hidden="true"><i></i><i></i><i></i></span><span>rdm@sistemas:~$ <span data-i18n="hero.panel">estado del servicio</span></span></figcaption>
+        <ul class="console__log">
+          <li><span class="tag tag--ok">[ok]</span><span class="console__k" data-i18n="hero.l1k">servidores</span><span class="console__v" data-i18n="hero.l1v">endurecidos y monitoreados</span></li>
+          <li><span class="tag tag--ok">[ok]</span><span class="console__k" data-i18n="hero.l2k">respaldos</span><span class="console__v" data-i18n="hero.l2v">probados con restauración</span></li>
+          <li><span class="tag tag--ok">[ok]</span><span class="console__k" data-i18n="hero.l3k">alertas</span><span class="console__v" data-i18n="hero.l3v">llegan antes que el problema</span></li>
+          <li><span class="tag tag--wait">[..]</span><span class="console__k" data-i18n="hero.l4k">tu proyecto</span><span class="console__v"><span data-i18n="hero.l4v">esperando presupuesto</span><span class="caret" aria-hidden="true"></span></span></li>
+        </ul>
+        <dl class="stats" id="stats"></dl>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band" id="servicios" aria-labelledby="services-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow" data-i18n="services.eyebrow">Servicios</p>
+        <h2 id="services-title" data-i18n="services.title">Lo que puedo resolver en tu empresa</h2>
+        <p class="sec-lead" data-i18n="services.lead">Seis líneas de trabajo que se complementan.</p>
+      </header>
+      <div class="services" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <section class="band band--ink" id="servidores" aria-labelledby="servers-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow" data-i18n="servers.eyebrow">Servidores e infraestructura</p>
+        <h2 id="servers-title" data-i18n="servers.title">Tu servidor, bien montado desde el primer día</h2>
+        <p class="sec-lead" data-i18n="servers.lead">Instalo y configuro servidores Linux en el equipo de tu empresa o en tu cuenta en la nube.</p>
+      </header>
+
+      <div class="stack">
+        <div class="stack__diagram">
+          <p class="stack__hint" id="stackHint" data-i18n="servers.hint">Tocá cada capa para ver qué hago en ella</p>
+          <div class="stack__body">
+            <div class="stack__internet" aria-hidden="true"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg>internet</div>
+            <div class="stack__layers" role="tablist" aria-labelledby="stackHint" id="layerTabs"></div>
+            <div class="stack__watch" aria-hidden="true"><span data-i18n="servers.mon">Monitoreo y alertas en todas las capas</span></div>
+          </div>
+        </div>
+        <div class="stack__panel" id="layerPanel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+      </div>
+
+      <div class="servers-foot">
+        <div class="own">
+          <svg class="ic ic--lg" aria-hidden="true"><use href="#i-lock"/></svg>
+          <div>
+            <h3 data-i18n="servers.own.t">El servidor es tuyo</h3>
+            <p data-i18n="servers.own.d">Trabajo sobre tu equipo o tu cuenta.</p>
+          </div>
+        </div>
+        <div class="deliver">
+          <h3 data-i18n="servers.deliver.t">Qué recibís al terminar</h3>
+          <ul class="checks">
+            <li data-i18n="servers.d1">Servidor funcionando</li>
+            <li data-i18n="servers.d2">Informe de seguridad</li>
+            <li data-i18n="servers.d3">Manual de operación</li>
+            <li data-i18n="servers.d4">Respaldos automáticos</li>
+            <li data-i18n="servers.d5">Alertas</li>
+            <li data-i18n="servers.d6">Mantenimiento mensual opcional</li>
+          </ul>
+          <a class="btn btn--cta" href="#contacto" data-service="infra" data-origin="servers"><span data-i18n="servers.cta">Quiero un servidor</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="desarrollo" aria-labelledby="dev-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow" data-i18n="dev.eyebrow">Desarrollo</p>
+        <h2 id="dev-title" data-i18n="dev.title">Software a medida: web, escritorio y mobile</h2>
+        <p class="sec-lead" data-i18n="dev.lead">Desarrollo el sistema que tu empresa necesita.</p>
+      </header>
+      <div class="dev" id="devGrid"></div>
+      <div class="quality">
+        <svg class="ic ic--lg" aria-hidden="true"><use href="#i-gauge"/></svg>
+        <div>
+          <h3 data-i18n="dev.q.t">Probado antes de entregarse</h3>
+          <p data-i18n="dev.q.d">Soy técnico en testing certificado.</p>
+        </div>
+        <a class="btn btn--ghost" href="#contacto" data-service="dev" data-origin="dev" data-i18n="dev.cta">Contame tu idea</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint" id="proceso" aria-labelledby="process-title">
+    <div class="wrap">
+      <header class="sec-head sec-head--row">
+        <p class="eyebrow" data-i18n="process.eyebrow">Cómo trabajo</p>
+        <h2 id="process-title" data-i18n="process.title">Cuatro pasos, sin sorpresas</h2>
+      </header>
+      <ol class="steps">
+        <li><span class="steps__n" aria-hidden="true">1</span><h3 data-i18n="process.s1t">Diagnóstico</h3><p data-i18n="process.s1d">Conversamos.</p></li>
+        <li><span class="steps__n" aria-hidden="true">2</span><h3 data-i18n="process.s2t">Propuesta</h3><p data-i18n="process.s2d">Alcance y precio.</p></li>
+        <li><span class="steps__n" aria-hidden="true">3</span><h3 data-i18n="process.s3t">Implementación</h3><p data-i18n="process.s3d">Por etapas.</p></li>
+        <li><span class="steps__n" aria-hidden="true">4</span><h3 data-i18n="process.s4t">Entrega y soporte</h3><p data-i18n="process.s4d">Documentado.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band" id="proyectos" aria-labelledby="work-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow" data-i18n="work.eyebrow">Proyectos</p>
+        <h2 id="work-title" data-i18n="work.title">Trabajo real, documentado y verificable</h2>
+        <p class="sec-lead" data-i18n="work.lead">Proyectos en producción, laboratorios y herramientas propias.</p>
+      </header>
+      <div class="filters" role="group" aria-label="Filtrar proyectos" id="filters">
+        <button type="button" class="chip" data-filter="all" aria-pressed="true" data-i18n="work.f.all">Todos</button>
+        <button type="button" class="chip" data-filter="servers" aria-pressed="false" data-i18n="work.f.servers">Servidores</button>
+        <button type="button" class="chip" data-filter="dev" aria-pressed="false" data-i18n="work.f.dev">Desarrollo</button>
+        <button type="button" class="chip" data-filter="sec" aria-pressed="false" data-i18n="work.f.sec">Seguridad</button>
+        <button type="button" class="chip" data-filter="auto" aria-pressed="false" data-i18n="work.f.auto">Automatización</button>
+        <button type="button" class="chip" data-filter="net" aria-pressed="false" data-i18n="work.f.net">Redes</button>
+      </div>
+      <p class="sr-only" aria-live="polite" id="filterStatus"></p>
+      <ul class="projects" id="projectList"></ul>
+      <p class="more"><a class="link" href="https://github.com/GonzaBot" rel="noopener noreferrer" target="_blank"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg><span data-i18n="work.more">Ver los más de 80 repositorios en GitHub</span></a></p>
+    </div>
+  </section>
+
+  <dialog class="case" id="caseDialog" aria-labelledby="caseTitle">
+    <div class="case__in">
+      <button type="button" class="icon-btn case__close" id="caseClose" aria-label="Cerrar" data-i18n-aria="work.close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+      <p class="case__status" id="caseStatus"></p>
+      <h2 id="caseTitle"></h2>
+      <dl class="case__body" id="caseBody"></dl>
+      <div class="case__links" id="caseLinks"></div>
+    </div>
+  </dialog>
+
+  <section class="band band--tint" id="perfil" aria-labelledby="profile-title">
+    <div class="wrap profile">
+      <div class="profile__main">
+        <header class="sec-head">
+          <p class="eyebrow" data-i18n="profile.eyebrow">Perfil</p>
+          <h2 id="profile-title" data-i18n="profile.title">Quién está detrás</h2>
+        </header>
+        <p class="prose" data-i18n="profile.p1">Soy Tecnólogo en Análisis y Desarrollo de Sistemas.</p>
+        <p class="prose" data-i18n="profile.p2">Además soy docente de informática.</p>
+        <div class="langs">
+          <h3 data-i18n="profile.langs">Idiomas</h3>
+          <ul>
+            <li lang="es" data-i18n="lang.es">Español: nativo</li>
+            <li lang="pt" data-i18n="lang.pt">Português: fluido</li>
+            <li lang="en" data-i18n="lang.en">English: intermedio</li>
+          </ul>
+        </div>
+        <div class="profile__links">
+          <a class="btn btn--ghost btn--sm" href="https://github.com/GonzaBot" rel="noopener noreferrer" target="_blank"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a>
+          <a class="btn btn--ghost btn--sm" href="https://www.linkedin.com/in/gonzardem" rel="noopener noreferrer" target="_blank"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a>
+        </div>
+      </div>
+      <div class="profile__time">
+        <h3 class="mini-title" data-i18n="profile.timeline">Trayectoria</h3>
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="formacion" aria-labelledby="certs-title">
+    <div class="wrap certs-wrap">
+      <div>
+        <header class="sec-head">
+          <h2 id="certs-title" data-i18n="certs.title">Formación y certificaciones</h2>
+          <p class="sec-lead" data-i18n="certs.lead">Más de 40 certificados.</p>
+        </header>
+        <div class="certs" id="certs"></div>
+        <p class="note" data-i18n="certs.note">Los certificados tienen código de verificación y están disponibles a pedido.</p>
+      </div>
+      <div class="side">
+        <figure class="talk">
+          <img src="assets/img/cintia-2024.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Gonzalo Rodríguez de Mello exponiendo en el atril de UTEC durante CINTIA 2024" data-i18n-alt="talk.alt">
+          <figcaption data-i18n="talk.cap">CINTIA 2024, Universidad Tecnológica</figcaption>
+        </figure>
+        <h3 data-i18n="talk.title">Docencia y divulgación</h3>
+        <p data-i18n="talk.p">Doy clases en DGETP-UTU.</p>
+        <blockquote class="quote" id="quote">
+          <p class="quote__label" data-i18n="quote.label">Recomendación</p>
+          <p class="quote__text" id="quoteText"></p>
+          <p class="quote__orig" id="quoteOrig" lang="pt">«Ele provou ser um profissional dedicado, responsável e altamente capaz. Sua habilidade em lidar com complexidades de dados e sua competência técnica contribuíram significativamente para o sucesso de nossos projetos.»</p>
+          <footer><cite>Camilo Morasca</cite><span data-i18n="quote.who">COO de Perceptiva (Brasil)</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band--tint" id="esta-pagina" aria-labelledby="site-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow" data-i18n="site.eyebrow">Esta página</p>
+        <h2 id="site-title" data-i18n="site.title">Cómo está hecha esta página</h2>
+        <p class="sec-lead" data-i18n="site.lead">Lo que te ofrezco lo apliqué también acá.</p>
+      </header>
+      <ul class="facts">
+        <li><svg class="ic" aria-hidden="true"><use href="#i-eye-off"/></svg><h3 data-i18n="site.i1t">Sin rastreadores</h3><p data-i18n="site.i1d">No usa cookies.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><h3 data-i18n="site.i2t">Política de seguridad estricta</h3><p data-i18n="site.i2d">CSP estricta.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-lock"/></svg><h3 data-i18n="site.i3t">Formulario protegido</h3><p data-i18n="site.i3d">Validación doble.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg><h3 data-i18n="site.i4t">Divulgación responsable</h3><p data-i18n="site.i4d">security.txt.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-gauge"/></svg><h3 data-i18n="site.i5t">Accesible y liviano</h3><p data-i18n="site.i5d">Funciona con teclado.</p></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><h3 data-i18n="site.i6t">Tres idiomas</h3><p data-i18n="site.i6d">Español, portugués e inglés.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band--ink" id="contacto" aria-labelledby="contact-title">
+    <div class="wrap contact">
+      <div class="contact__intro">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Presupuesto</p>
+        <h2 id="contact-title" data-i18n="contact.title">Contame qué necesitás</h2>
+        <p class="sec-lead" data-i18n="contact.lead">Respondé unas preguntas cortas.</p>
+        <ul class="promises">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg><div><h3 data-i18n="contact.side1t">Respuesta en un día hábil</h3><p data-i18n="contact.side1d">Te escribo por el canal que elijas.</p></div></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg><div><h3 data-i18n="contact.side2t">Sin compromiso</h3><p data-i18n="contact.side2d">El presupuesto es gratis y por escrito.</p></div></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#i-lock"/></svg><div><h3 data-i18n="contact.side3t">Tus datos, cuidados</h3><p data-i18n="contact.side3d">Solo los uso para responderte.</p></div></li>
+        </ul>
+      </div>
+
+      <div class="quote-form" id="quoteForm">
+        <ol class="progress" id="progress" aria-label="Progreso">
+          <li data-step="1"><span data-i18n="f.s1">Servicio</span></li>
+          <li data-step="2"><span data-i18n="f.s2">Detalles</span></li>
+          <li data-step="3"><span data-i18n="f.s3">Plazos y lugar</span></li>
+          <li data-step="4"><span data-i18n="f.s4">Tus datos</span></li>
+          <li data-step="5"><span data-i18n="f.s5">Revisión</span></li>
+        </ol>
+        <p class="draft-note" id="draftNote" hidden data-i18n="f.draft">Recuperé lo que habías escrito antes.</p>
+
+        <form id="leadForm" novalidate>
+          <fieldset class="fstep" data-step="1" id="step1">
+            <legend tabindex="-1" data-i18n="f.q.service">¿Qué necesitás?</legend>
+            <div class="opts opts--cards" id="serviceOpts"></div>
+            <p class="err" id="err-service" role="alert"></p>
+          </fieldset>
+
+          <fieldset class="fstep" data-step="2" id="step2" hidden>
+            <legend tabindex="-1" data-i18n="f.q.detail">Contame un poco más</legend>
+            <p class="alert" id="incidentNote" hidden data-i18n="f.incident">Si estás atravesando un incidente ahora…</p>
+            <div id="detailFields"></div>
+            <div class="field">
+              <label for="f-desc" data-i18n="f.desc">Describí tu situación en pocas palabras</label>
+              <textarea id="f-desc" name="desc" rows="4" maxlength="2000" aria-describedby="help-desc err-desc" required></textarea>
+              <p class="help" id="help-desc"><span data-i18n="f.descHelp">Mínimo 20 caracteres.</span> <span class="count" id="descCount">0 / 2000</span></p>
+              <p class="err" id="err-desc" role="alert"></p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fstep" data-step="3" id="step3" hidden>
+            <legend tabindex="-1" data-i18n="f.q.when">Plazos, lugar y tipo de cliente</legend>
+            <div class="group" role="radiogroup" aria-labelledby="lbl-urgency" aria-describedby="err-urgency">
+              <p class="group__label" id="lbl-urgency" data-i18n="f.urgency">¿Para cuándo lo necesitás?</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="urgency" value="now"><span data-i18n="f.u.now">Lo antes posible</span></label>
+                <label class="opt"><input type="radio" name="urgency" value="month"><span data-i18n="f.u.month">Dentro de este mes</span></label>
+                <label class="opt"><input type="radio" name="urgency" value="quarter"><span data-i18n="f.u.quarter">En los próximos tres meses</span></label>
+                <label class="opt"><input type="radio" name="urgency" value="info"><span data-i18n="f.u.info">Solo estoy averiguando</span></label>
+              </div>
+              <p class="err" id="err-urgency" role="alert"></p>
+            </div>
+            <div class="group" role="radiogroup" aria-labelledby="lbl-location" aria-describedby="err-location">
+              <p class="group__label" id="lbl-location" data-i18n="f.location">¿Dónde estás?</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="location" value="rivera"><span data-i18n="f.l.rivera">Rivera</span></label>
+                <label class="opt"><input type="radio" name="location" value="livramento"><span data-i18n="f.l.livramento">Santana do Livramento</span></label>
+                <label class="opt"><input type="radio" name="location" value="uy"><span data-i18n="f.l.uy">Otro lugar de Uruguay</span></label>
+                <label class="opt"><input type="radio" name="location" value="abroad"><span data-i18n="f.l.abroad">Otro país</span></label>
+              </div>
+              <p class="err" id="err-location" role="alert"></p>
+            </div>
+            <div class="group" role="radiogroup" aria-labelledby="lbl-client" aria-describedby="err-client">
+              <p class="group__label" id="lbl-client" data-i18n="f.client">Tipo de cliente</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="client" value="company"><span data-i18n="f.c.company">Empresa o comercio</span></label>
+                <label class="opt"><input type="radio" name="client" value="pro"><span data-i18n="f.c.pro">Profesional independiente</span></label>
+                <label class="opt"><input type="radio" name="client" value="inst"><span data-i18n="f.c.inst">Institución u organización</span></label>
+                <label class="opt"><input type="radio" name="client" value="person"><span data-i18n="f.c.person">Particular</span></label>
+              </div>
+              <p class="err" id="err-client" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="f-budget"><span data-i18n="f.budget">Presupuesto aproximado que manejás</span> <span class="opt-tag">(<span data-i18n="f.optional">opcional</span>)</span></label>
+              <select id="f-budget" name="budget">
+                <option value="unknown" data-i18n="f.b.unknown">Todavía no sé</option>
+                <option value="1" data-i18n="f.b.1">Menos de US$ 300</option>
+                <option value="2" data-i18n="f.b.2">US$ 300 a 1.000</option>
+                <option value="3" data-i18n="f.b.3">US$ 1.000 a 3.000</option>
+                <option value="4" data-i18n="f.b.4">Más de US$ 3.000</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="fstep" data-step="4" id="step4" hidden>
+            <legend tabindex="-1" data-i18n="f.q.you">¿Cómo te contacto?</legend>
+            <div class="row2">
+              <div class="field">
+                <label for="f-name" data-i18n="f.name">Nombre y apellido</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="err-name" data-i18n-ph="f.ph.name">
+                <p class="err" id="err-name" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-company"><span data-i18n="f.company">Empresa o comercio</span> <span class="opt-tag">(<span data-i18n="f.optional">opcional</span>)</span></label>
+                <input id="f-company" name="company" type="text" autocomplete="organization" maxlength="100" data-i18n-ph="f.ph.company">
+              </div>
+            </div>
+            <div class="row2">
+              <div class="field">
+                <label for="f-email" data-i18n="f.email">Correo electrónico</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" required aria-describedby="err-email" data-i18n-ph="f.ph.email">
+                <p class="err" id="err-email" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone"><span data-i18n="f.phone">Teléfono o WhatsApp</span> <span class="opt-tag" id="phoneOpt">(<span data-i18n="f.optional">opcional</span>)</span></label>
+                <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="30" aria-describedby="err-phone" data-i18n-ph="f.ph.phone">
+                <p class="err" id="err-phone" role="alert"></p>
+              </div>
+            </div>
+            <div class="group" role="radiogroup" aria-labelledby="lbl-channel" aria-describedby="err-channel">
+              <p class="group__label" id="lbl-channel" data-i18n="f.channel">¿Por dónde preferís que te responda?</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="channel" value="email"><span data-i18n="f.ch.email">Correo</span></label>
+                <label class="opt"><input type="radio" name="channel" value="whatsapp"><span data-i18n="f.ch.whatsapp">WhatsApp</span></label>
+                <label class="opt"><input type="radio" name="channel" value="call"><span data-i18n="f.ch.call">Llamada</span></label>
+              </div>
+              <p class="err" id="err-channel" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="f-time"><span data-i18n="f.time">Horario preferido</span> <span class="opt-tag">(<span data-i18n="f.optional">opcional</span>)</span></label>
+              <select id="f-time" name="time">
+                <option value="any" data-i18n="f.t.any">Cualquier horario</option>
+                <option value="morning" data-i18n="f.t.morning">Mañana</option>
+                <option value="afternoon" data-i18n="f.t.afternoon">Tarde</option>
+              </select>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="f-website">Website</label>
+              <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field field--check">
+              <label class="check"><input id="f-consent" name="consent" type="checkbox" aria-describedby="err-consent"><span data-i18n="f.consent">Acepto que use estos datos solo para responder a mi pedido.</span></label>
+              <p class="err" id="err-consent" role="alert"></p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fstep" data-step="5" id="step5" hidden>
+            <legend tabindex="-1" data-i18n="f.q.review">Revisá antes de enviar</legend>
+            <dl class="review" id="review"></dl>
+            <p class="err err--block" id="err-send" role="alert"></p>
+          </fieldset>
+
+          <div class="fnav" id="fnav">
+            <button type="button" class="btn btn--ghost" id="backBtn" hidden data-i18n="f.back">Atrás</button>
+            <span class="fnav__count" id="stepCount" aria-live="polite"></span>
+            <button type="button" class="btn btn--cta" id="nextBtn"><span data-i18n="f.next">Siguiente</span></button>
+            <button type="submit" class="btn btn--cta" id="sendBtn" hidden><span id="sendLabel" data-i18n="f.send">Enviar pedido</span></button>
+          </div>
+        </form>
+
+        <div class="done" id="done" hidden tabindex="-1">
+          <svg class="ic ic--xl" aria-hidden="true"><use href="#i-check"/></svg>
+          <h3 data-i18n="f.ok.t">Pedido recibido</h3>
+          <p class="done__id" id="leadId"></p>
+          <p data-i18n="f.ok.d">Te envié una confirmación por correo.</p>
+          <p class="note" id="demoNote" hidden data-i18n="f.ok.demo">Vista previa.</p>
+          <button type="button" class="btn btn--ghost" id="newBtn" data-i18n="f.ok.new">Hacer otro pedido</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <div class="foot__brand">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="26" height="6" rx="1.5"/><rect x="3" y="13" width="26" height="6" rx="1.5"/><rect x="3" y="21" width="26" height="6" rx="1.5"/><circle class="brand__led" cx="24" cy="8" r="1.6"/></svg>
+      <div>
+        <p class="foot__name">Rodríguez de Mello Sistemas</p>
+        <p class="foot__meta">© <span id="year">2026</span> · <span data-i18n="footer.rights">Rivera, Uruguay</span></p>
+      </div>
+    </div>
+    <p class="foot__made" data-i18n="footer.made">Sitio hecho a mano, sin plantillas ni rastreadores.</p>
+    <div class="foot__links">
+      <a href="https://github.com/GonzaBot" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><svg class="ic" aria-hidden="true"><use href="#i-github"/></svg></a>
+      <a href="https://www.linkedin.com/in/gonzardem" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      <a href=".well-known/security.txt" class="foot__sec">security.txt</a>
+    </div>
+  </div>
+</footer>
+
+<noscript><p class="noscript">Esta página necesita JavaScript para mostrar los servicios, los proyectos y el formulario.</p></noscript>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/logic.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/form.js"></script>
+</body>
+</html>

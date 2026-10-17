@@ -1,0 +1,12 @@
+{
+  "name": "Rodríguez de Mello Sistemas",
+  "short_name": "RdM Sistemas",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0E1726",
+  "theme_color": "#0E1726",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,4 @@
+node_modules/
+tests/coverage-browser.json
+test-results/
+.DS_Store

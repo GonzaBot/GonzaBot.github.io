@@ -1,0 +1,10 @@
+Política de divulgación responsable — Rodríguez de Mello Sistemas
+
+Si encontrás una vulnerabilidad en este sitio, reportala por el formulario de
+contacto (servicio "Ciberseguridad para empresas") o por GitHub. Incluí los pasos
+para reproducirla. No accedas a datos de terceros, no degrades el servicio y no
+hagas pública la falla antes de que esté corregida. Respondo en un plazo de 5 días
+hábiles y doy crédito a quien reporta, si así lo desea.
+
+Responsible disclosure: report vulnerabilities through the contact form or GitHub,
+with reproduction steps. Do not access third-party data or degrade the service.

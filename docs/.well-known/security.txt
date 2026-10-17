@@ -1,0 +1,6 @@
+Contact: https://gonzabot.github.io/#contacto
+Contact: https://github.com/GonzaBot
+Expires: 2027-10-17T00:00:00.000Z
+Preferred-Languages: es, pt, en
+Canonical: https://gonzabot.github.io/.well-known/security.txt
+Policy: https://gonzabot.github.io/.well-known/security-policy.txt

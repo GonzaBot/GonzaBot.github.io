@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "env": { "browser": true, "es2017": true },
+  "parserOptions": { "ecmaVersion": 2017, "sourceType": "script" },
+  "plugins": ["no-unsanitized", "security"],
+  "extends": ["eslint:recommended", "plugin:security/recommended"],
+  "rules": {
+    "no-unsanitized/method": "error",
+    "no-unsanitized/property": "error",
+    "no-eval": "error", "no-implied-eval": "error", "no-new-func": "error",
+    "no-script-url": "error", "strict": ["error", "function"], "eqeqeq": "error", "no-var": "off",
+    "no-empty": ["error", { "allowEmptyCatch": true }],
+    "no-control-regex": "off"
+  },
+  "globals": { "module": "readonly", "self": "readonly" }
+}
